@@ -1,0 +1,9 @@
+// Import the framework
+@import 'node_modules/vanilla-framework';
+
+// Include all of Vanilla Framework
+@include vanilla;
+
+h1 {
+  padding: 20px;
+}

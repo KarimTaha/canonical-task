@@ -1,0 +1,51 @@
+$white: #ffffff;
+$separator-color: rgb(194, 193, 193);
+$shadow-color: rgba(100, 100, 111, 0.2);
+$Card-top-color: #9f829d;
+
+.card {
+  border-top: 3px solid $Card-top-color;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: $shadow-color 0px 7px 20px 0px;
+}
+
+.semi-bold {
+    font-weight: 350;
+}
+
+.bottom-container {
+    margin-top: auto;
+}
+
+.bottom-item {
+  margin-top: auto;
+}
+
+hr {
+  border: 1px dotted $separator-color;
+  border-style: none none dotted;
+  background-color: $white;
+}
+
+.signature {
+  font-style: italic;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
